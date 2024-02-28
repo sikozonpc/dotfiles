@@ -1,0 +1,107 @@
+{
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+	"workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
+	"workbench.preferredLightColorTheme": "Gruvbox Light Hard",
+	"gopls": { "ui.semanticTokens": true },
+	"workbench.activityBar.location": "hidden",
+	"window.autoDetectColorScheme": true,
+	"git.mergeEditor": false,
+	"go.formatTool": "goimports",
+	"editor.wordWrap": "on",
+	"editor.lineNumbers": "off",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+	"breadcrumbs.enabled": false,
+	"gitlens.hovers.currentLine.over": "line",
+	"editor.codeLens": true,
+	"editor.tabSize": 2,
+	// "editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+	"editor.letterSpacing": 0.4,
+	"editor.smoothScrolling": true,
+	"editor.rulers": [
+		120
+	],
+	"explorer.autoRevealExclude": {
+		"**/node_modules": true,
+		"**/bower_components": true
+	},
+	"typescript.referencesCodeLens.enabled": true,
+	"go.useLanguageServer": true,
+	"editor.minimap.enabled": false,
+	"editor.formatOnType": true,
+	"debug.console.fontSize": 12,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSaveMode": "modifications",
+	"editor.cursorBlinking": "solid",
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"comment"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				},
+			},
+		]
+	},
+	"editor.fontSize": 15,
+	"editor.cursorStyle": "block",
+	"typescript.preferences.importModuleSpecifier": "project-relative",
+	"terminal.integrated.fontSize": 15,
+	"githubPullRequests.pullBranch": "never",
+	"go.toolsManagement.autoUpdate": true,
+	"workbench.iconTheme": "icons",
+	"git.autofetch": true,
+	"editor.inlineSuggest.enabled": true,
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": true,
+		"markdown": true,
+		"scminput": false,
+		"yaml": true,
+		"go": false
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"git.confirmSync": false,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"workbench.startupEditor": "none",
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"window.commandCenter": false,
+	"gitlens.currentLine.enabled": false,
+	"window.zoomLevel": 2,
+	"vsicons.dontShowNewVersionMessage": true,
+	"cSpell.userWords": [
+		"mypassword",
+		"projectmanager",
+		"sikozonpc",
+		"Subrouter",
+		"unbuffered",
+		"unmarshalling"
+	],
+	"github.copilot.advanced": {},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	 "[templ]": {
+        "editor.defaultFormatter": "a-h.templ"
+    },
+	"tailwindCSS.includeLanguages": {
+    "templ": "html"
+  }
+}
