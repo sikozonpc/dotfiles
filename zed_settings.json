@@ -1,0 +1,144 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "cursor_animation": {
+    "enabled": true,
+  },
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "colored-zed-icons-theme": true,
+    "dockerfile": true,
+    "elixir": true,
+    "env": true,
+    "git-firefly": true,
+    "gruvbox-crisp-themes": true,
+    "html": true,
+    "sql": true,
+    "terraform": true,
+  },
+  "agent_ui_font_size": 16.0,
+  "ui_font_size": 15.0,
+  "outline_panel": {
+    "dock": "right",
+  },
+  "collaboration_panel": {
+    "dock": "right",
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "favorite_config_option_values": {
+        "fast": ["off"],
+      },
+      "default_config_options": {
+        "mode": "auto",
+        "fast": "off",
+      },
+      "type": "registry",
+    },
+  },
+  "disable_ai": false,
+  "project_panel": {
+    "dock": "right",
+    "hide_root": false,
+    "diagnostic_badges": false,
+    "scrollbar": {
+      "horizontal_scroll": true,
+    },
+    "indent_size": 20.0,
+    "git_status": true,
+    "file_icons": true,
+  },
+  "git_panel": {
+    "dock": "right",
+    "tree_view": true,
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Colored Zed Icons Theme Dark",
+    "dark": "Colored Zed Icons Theme Dark",
+  },
+  "git": {
+    "git_gutter": "hide",
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
+  "git_panel.show_count_badge": "on",
+  "agent": {
+    "dock": "left",
+    "play_sound_when_agent_done": "always",
+    "default_model": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6-latest",
+      "enable_thinking": false,
+    },
+    "favorite_models": [],
+    "inline_assistant_model": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6-latest",
+      "enable_thinking": false,
+    },
+    "model_parameters": [],
+  },
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_family": "JetBrainsMono Nerd Font",
+
+  "buffer_font_weight": 500.0,
+  "edit_predictions": {
+    "mode": "subtle",
+    "provider": "zed",
+  },
+  "experimental.theme_overrides": {
+    "panel.background": "#1e2021",
+    // "border": "#1e2021",
+    "panel.focused_border": "#1a1f1e",
+    "editor.gutter.background": "#1e2021",
+    "editor.background": "#1e2021",
+    "toolbar.background": "#1e2021",
+    "tab_bar.background": "#1e2021",
+    "tab.active_background": "#1e2021",
+    "tab.inactive_background": "#1e2021",
+    "title_bar.background": "#1e2021",
+    "status_bar.background": "#1e2021",
+  },
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+  "buffer_font_size": 14.0,
+  "terminal": {
+    "show_count_badge": false,
+    "dock": "right",
+    "font_size": 14.0,
+  },
+  "vertical_scroll_margin": 1000.0,
+  "gutter": {
+    "line_numbers": true,
+  },
+  "minimap": {
+    "show": "never",
+  },
+  "scrollbar": {
+    "axes": {
+      "horizontal": false,
+      "vertical": null,
+    },
+  },
+  "cursor_shape": "bar",
+  "cursor_blink": false,
+  "auto_indent_on_paste": true,
+  "use_on_type_format": true,
+  "show_edit_predictions": true,
+  "wrap_guides": [100],
+  "soft_wrap": "editor_width",
+  "tab_size": 2,
+  "base_keymap": "VSCode",
+  "vim_mode": false,
+}
